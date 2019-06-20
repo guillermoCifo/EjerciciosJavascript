@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#header_img {
+	height:auto;
+	width:auto;
+    max-width:100%;
+    border:none;
+    display:block;
+}
+.index_tittle{
+	text-align: center;
+	color: white;
+}
+.back_style{
+	background-color: #4F8EAF;
+}
