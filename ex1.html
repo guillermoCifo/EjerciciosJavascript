@@ -27,7 +27,12 @@
 		</section>
 	</header>
 	<article>
-		
+		<h2 class="subtittles">Calcula el factorial de un número</h2>
+		<form>
+			<input type="number" placeholder="factorial of" id="input_number" class="centered">
+			<button type="button" class="centered" onClick="document.getElementById('factor').innerHTML = factorial(document.getElementById('input_number').value)">Click</button>
+		</form>
+		<h1 id="factor" class="result"></h1>
 	</article>
 </body>
 </html>

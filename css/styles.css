@@ -14,3 +14,24 @@
 .back_style{
 	background-color: #4F8EAF;
 }
+
+.subtittles{
+	text-align: center;
+	background-color: #088A08;
+	color: white;
+}
+
+.centered {
+	display: block;
+	margin: 0 auto;
+}
+
+.result{
+	color: #088A08;
+	text-align: center;
+}
+
+h6{
+	text-align: center;
+	color: #FF8000;
+}

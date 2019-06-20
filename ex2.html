@@ -10,7 +10,9 @@
 </head>
 <body>
 	<header>
-		<h1>Ejercicio 2</h1>
+		<div class="back_style">
+			<h1 class="index_tittle">Ejercicio 2</h1>
+		</div>	
 		<section>
 			<ul class="excercise_menu">
 				<li><a href="index.html">home</a></li>
@@ -25,7 +27,24 @@
 		</section>
 	</header>
 	<article>
-		
+		<h2 class="subtittles">Cifrado César</h2>
+		<p>Pon un mensaje y un número, el mensaje se codificará con el método de cifrado César</p>
+		<h6>Encriptar</h6>
+		<form>
+			<input type="text" placeholder="Mensaje" id="input_msg" class="centered">
+			<input type="number" placeholder="Number" id="input_key" class="centered">
+			<button type="button" class="centered" onClick="document.getElementById('encripted_msg').innerHTML = cesarCipher(document.getElementById('input_msg').value, document.getElementById('input_key').value)">Click</button>
+		</form>
+		<h1 id="encripted_msg" class="result"></h1>
+	</article>
+	<article>
+		<h6>Desencriptar</h6>
+		<form>
+			<input type="text" placeholder="Mensaje" id="decript_msg" class="centered">
+			<input type="number" placeholder="Number" id="decript_key" class="centered">
+			<button type="button" class="centered" onClick="document.getElementById('decripted_msg').innerHTML = cesarDecipher(document.getElementById('decript_msg').value, document.getElementById('decript_key').value)">Click</button>
+		</form>
+		<h1 id="decripted_msg" class="result"></h1>
 	</article>
 </body>
 </html>
